@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Header/>
+        <Route exact path='/' component={Header} />
       </BrowserRouter>
     </>
   );
