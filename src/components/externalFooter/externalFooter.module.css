@@ -15,3 +15,7 @@ button {
   border: none;
   color: white;
 }
+
+footer p {
+  font-size: 0.6rem
+}
