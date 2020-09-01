@@ -5,10 +5,7 @@ header {
     position: fixed;
 }
 
-#divinoMain {
-    font-family: "Tangerine"
-}
-
 #orderNow {
-    font-family: "Great Vibes";
+    font-family: "Tangerine";
+    size: 1.2rem;
 }
