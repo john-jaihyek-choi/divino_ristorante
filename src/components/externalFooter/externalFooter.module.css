@@ -1,4 +1,19 @@
-.FooterMain {
+footer {
+  background-color: #50423D;
+  color: white;
+  left: 0;
+  bottom: 0;
+}
+
+input {
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 10px;
+}
+
+/* .FooterMain {
   background-color: #50423d;
   position: fixed;
   left: 0;
@@ -56,4 +71,4 @@
   font-family: "Montserrat";
   color: white;
   font-size: 8px;
-}
+} */
