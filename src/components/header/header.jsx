@@ -3,8 +3,8 @@ import styles from "./header.module.css"
 
 const Header = props => {
     return (
-        <header className="container">
-            <div className="container h-100">
+        <header className="container fixed-top p-0">
+            <div className="container-fluid h-100">
                 <div className="row h-100">
                     <h6 id={styles.orderNow} className='col-4 align-self-center text-white text-center'><u>Order Now</u></h6>
                     <h2 className='col-4 align-self-center text-white text-center'>Divino</h2>
