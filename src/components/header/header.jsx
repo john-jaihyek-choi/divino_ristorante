@@ -1,5 +1,4 @@
 import React from 'react';
-import "./header.module.css"
 import styles from "./header.module.css"
 
 const Header = props => {
