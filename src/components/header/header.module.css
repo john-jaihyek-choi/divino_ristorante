@@ -2,7 +2,7 @@ header {
     background-color: #50423D;
     font-family: "Great Vibes";
     height: 10vh;
-    position: fixed;
+    position: relative;
 }
 
 #orderNow {
