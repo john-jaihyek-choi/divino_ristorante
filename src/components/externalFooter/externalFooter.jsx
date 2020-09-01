@@ -19,7 +19,7 @@ function ExternalFooter() {
             <div className='col-3'></div>
           </div>
           <div className="row pt-3">
-            <p className="col text-center h-100">Copyright &#169; Divino Ristorante. All Rights Reserved.</p>
+            <p className="col text-center">Copyright &#169; Divino Ristorante. All Rights Reserved.</p>
           </div>
         </form>
     </footer>
