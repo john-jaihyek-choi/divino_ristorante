@@ -3,39 +3,25 @@ import "./externalFooter.module.css";
 
 function ExternalFooter() {
   return (
-    // <div className={styles.FooterMain}>
-    //   <div className={styles.FooterContents}>
-    //     <div className={styles.FooterText}>
-    //       <p>Sign-Up for weekly updates!</p>
-    //     </div>
-    //     <input
-    //       type="text"
-    //       placeholder="email@email.com"
-    //       className={styles.FooterTextField}
-    //     />
-    //     <button className={styles.FooterButton} type="button">
-    //       <div className={styles.FooterButtonText}>Subscribe</div>
-    //     </button>
-    //     <div className={styles.FooterCopyrightText}>
-    //       <p>Copyright &#169; Divino Ristorante. All Rights Reserved.</p>
-    //     </div>
-    //   </div>
-    // </div>
     <footer className="container">
-      <div className="container justify-content-center py-3">
-        <span className="row justify-content-center">Sign Up for Weekly Updates!</span>
-      </div>
-      <form className='container' action="">
-        <div className="row justify-content-center pb-3">
-          <input type="text" placeholder="email@email.com" />
-        </div>
-        <div className="row justify-content-center pb-3">
-          <button type="button">Subscribe</button>
-        </div>
-      </form>
-      <div className="container justify-content-center">
-        <p className="col text-center">Copyright &#169; Divino Ristorante. All Rights Reserved.</p>
-      </div>
+        <form className='container flex-column' action="">
+          <div className="row pt-3">
+            <span className="col text-center">Sign Up for Weekly Updates!</span>
+          </div>
+          <div className="row pt-3">
+            <div className='col-2'></div>
+            <input className="col-8" type="text" placeholder="email@email.com" />
+            <div className='col-2'></div>
+          </div>
+          <div className="row pt-3">
+            <div className='col-3'></div>
+            <button className="col-6" type="button">Subscribe</button>
+            <div className='col-3'></div>
+          </div>
+          <div className="row pt-3">
+            <p className="col text-center h-100">Copyright &#169; Divino Ristorante. All Rights Reserved.</p>
+          </div>
+        </form>
     </footer>
   );
 }
