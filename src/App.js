@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Route exact path="/" component={Header} />
-        <Route exact path="/" component={ExternalFooter} />
+        <Header />
         <Route exact path="/" component={Landing} />
+        <ExternalFooter />
       </BrowserRouter>
     </>
   );
