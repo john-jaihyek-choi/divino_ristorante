@@ -1,5 +1,4 @@
-.LandingMain {
+section {
   background-color: white;
-  height: 100rem;
-  border-radius: 1rem;
+  height: 100vh;
 }

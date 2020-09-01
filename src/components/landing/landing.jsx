@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./landing.module.css";
+import "./landing.module.css"
 
 function ExternalFooter() {
   return (
-      <div className={styles.LandingMain}>
-          Hi
-      </div>
+      <section className="container">
+          
+      </section>
   );
 }
 
