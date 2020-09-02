@@ -1,11 +1,15 @@
 import React from "react";
-import "./landing.module.css"
+import "./landing.module.css";
+import styles from "./landing.module.css";
+import imgPhone from "../../assets/images/phoneIcon.png";
 
 function ExternalFooter() {
   return (
-      <section className="container">
-          
-      </section>
+    <section className="container">
+      <div>
+        <img className={styles.PhoneIcon} src={imgPhone} alt="Call Us" />
+      </div>
+    </section>
   );
 }
 
