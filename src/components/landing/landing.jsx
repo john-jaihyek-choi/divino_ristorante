@@ -6,9 +6,9 @@ import imgPhone from "../../assets/images/phoneIcon.png";
 function ExternalFooter() {
   return (
     <section className="container">
-      <div>
-        <img className={styles.PhoneIcon} src={imgPhone} alt="Call Us" />
-      </div>
+      <a href="tel:1-562-708-7297">
+        <img className={styles.PhoneIcon} src={imgPhone} alt="Call Us"/>
+      </a>
     </section>
   );
 }
