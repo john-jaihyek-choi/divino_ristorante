@@ -1,0 +1,14 @@
+.contact {
+    background-image: linear-gradient(to bottom, rgb(90, 77, 69), rgb(133, 119, 111), rgb(90, 77, 69));
+    background-color: #50423D;
+    height: 90vh;
+    position: relative;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+#mapWrapper {
+    position: relative;
+    height: 40%
+}
