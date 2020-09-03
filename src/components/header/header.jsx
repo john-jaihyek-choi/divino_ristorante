@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from "./header.module.css"
 
-const Header = props => {
+const Header = () => {
     return (
-        <header className="container fixed-top p-0">
+        <header className="container-fluid fixed-top p-0">
             <div className="container-fluid h-100">
                 <div className="row h-100">
                     <h6 id={styles.orderNow} className='col-4 align-self-center text-white text-center'><u>Order Now</u></h6>
