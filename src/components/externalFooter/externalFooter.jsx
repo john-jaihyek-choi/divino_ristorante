@@ -10,7 +10,7 @@ function ExternalFooter() {
           </div>
           <div className="row pt-3">
             <div className='col-2'></div>
-            <input className="col-8 p-2 pl-3" type="text" placeholder="email@email.com" />
+            <input className="col-8 p-2 pl-3" type="text" placeholder="john.doe@gmail.com" />
             <div className='col-2'></div>
           </div>
           <div className="row pt-3">
