@@ -3,7 +3,7 @@ import "./externalFooter.module.css";
 
 function ExternalFooter() {
   return (
-    <footer className="container">
+    <footer className="container-fluid">
         <form className='container flex-column' action="">
           <div className="row pt-3">
             <span className="col text-center">Sign Up for Weekly Updates!</span>
