@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./contact.module.css";
-import { GoogleMap, useLoadScript, Marker, InfoWindow } from "@react-google-maps/api";
+import { GoogleMap, useLoadScript } from "@react-google-maps/api";
+import Scroll from "react-scroll"
 
 const mapContainerStyle = {
     width: '100%',
@@ -20,6 +21,7 @@ function Contact () {
     if(!isLoaded) return "Loading Maps";
 
     return (
+        <Scroll.Element name="contact">
         <section className={`container-fluid px-0 d-flex flex-xs-column flex-sm-row flex-md-row flex-wrap flex-md-nowrap ${styles.contact} text-center justify-content-center overflow-auto`}>
             <div id={styles.address} className="col-xs-12 col-sm-3 col-md-3 d-flex flex-column justify-content-center order-xs-1 order-sm-1 order-md-1">
                 <div>
@@ -73,6 +75,7 @@ function Contact () {
                 </div>
             </div>
         </section>
+        </Scroll.Element>
     )
 }
 
