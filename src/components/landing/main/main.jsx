@@ -16,7 +16,7 @@ function Main() {
   return (
     <section className={`container-fluid p-0 ${styles.mainLanding} d-flex justify-content-center`}>
         <img id={styles.logo} src={logo} alt="logo"/>
-        <Link to="contact" smooth={true} duration={1000} offset={headerHeight} ><i id={styles.scroll} className="fas fa-chevron-down fa-2x text-white" ></i></Link>
+        <Link to="contact" smooth={true} duration={1000} offset={headerHeight} id={styles.scroll}><i className="fas fa-chevron-down fa-2x text-white" ></i></Link>
     </section>
   );
 }
