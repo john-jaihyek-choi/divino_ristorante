@@ -23,7 +23,7 @@ function Contact () {
         <section className={`container-fluid px-0 d-flex flex-xs-column flex-sm-row flex-md-row flex-wrap flex-md-nowrap ${styles.contact} text-center justify-content-center overflow-auto`}>
             <div id={styles.address} className="col-xs-12 col-sm-3 col-md-3 d-flex flex-column justify-content-center order-xs-1 order-sm-1 order-md-1">
                 <div>
-                    <h5><b><u>CONTACT</u></b></h5>
+                    <h5 className={styles.contactInfo}><b><u>CONTACT</u></b></h5>
                     <p>
                         968 Ralston Ave
                         <br/>
@@ -34,16 +34,16 @@ function Contact () {
                     </a>
                 </div>
             </div>
-            <div id={styles.mapWrapper} className="col-xs-12 col-sm-5 col-md-5 container-fluid w-100 px-0 py-4 justify-content-center order-xs-2 order-sm-3 order-md-3">
+            <div id={styles.mapWrapper} className="col-xs-12 col-sm-4 col-md-5 container-fluid w-100 px-0 py-4 justify-content-center order-xs-2 order-sm-3 order-md-3">
                 <GoogleMap 
                     mapContainerStyle={mapContainerStyle}
                     zoom={18}
                     center={center}
                 ></GoogleMap>
             </div>
-            <div id={styles.hours} className="col-xs-12 col-sm-3 col-md-3 d-flex flex-column justify-content-center order-xs-3 order-sm-2 order-md-2">
-                <div className="temporaryHours">
-                    <h5><b><u>Temporary Hours</u></b></h5>
+            <div id={styles.hours} className="col-xs-12 col-sm-4 col-md-3 d-flex flex-column justify-content-center order-xs-3 order-sm-2 order-md-2">
+                <div>
+                    <h5 className={styles.contactInfo}><b><u>Temporary Hours</u></b></h5>
                 </div>
                 <div>
                     <p>
@@ -52,8 +52,8 @@ function Contact () {
                         Pick Up or Delivery
                     </p>
                 </div>
-                <div className="normalHours">
-                    <h5><b><u>Normal Hours</u></b></h5>
+                <div>
+                    <h5 className={styles.contactInfo}><b><u>Normal Hours</u></b></h5>
                 </div>
                 <div>
                     <h6><b>Lunch:</b></h6>
