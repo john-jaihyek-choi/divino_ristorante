@@ -13,5 +13,13 @@
 
 #mapWrapper {
     position: relative;
-    height: 37%
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #mapWrapper
+    {
+     height: 40%
+    }
 }
