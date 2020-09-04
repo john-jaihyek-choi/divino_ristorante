@@ -4,6 +4,9 @@ A static website designed for Divino Ristorante.
 # Figma
 [Wireframe](https://www.figma.com/proto/JnHRSDqdT64KnaOpuSPYQ5/Divino-Ristorante?node-id=4%3A0&scaling=scale-down) designed for planning.
 
+# MeisterTask
+[Task Managment](https://www.meistertask.com/app/project/u76bVkgv/divino-ristorante-digital-transformation) planned for productivity.
+
 # Getting Started
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
