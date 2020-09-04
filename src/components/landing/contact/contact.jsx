@@ -21,7 +21,7 @@ function Contact () {
 
     return (
         <section className={`container-fluid px-0 pt-4 d-flex flex-column ${styles.contact} text-center`}>
-            <div id="address" className="d-flex flex-column">
+            <div id="address" className="d-flex flex-column overflow-auto">
                 <div className="contactInfo">
                     <h5><b><u>CONTACT</u></b></h5>
                 </div>
@@ -31,9 +31,9 @@ function Contact () {
                         <br/>
                         Belmont,CA 94002
                     </p>
-                    <p>
-                        T:(650) 620-9102
-                    </p>
+                    <a href="tel:1-562-708-7297" className="text-white">
+                        <u>T:(650) 620-9102</u>
+                    </a>
                 </div>
             </div>
             <div id={styles.mapWrapper} className="container-fluid px-0 py-4 w-100">
@@ -43,13 +43,16 @@ function Contact () {
                     center={center}
                 ></GoogleMap>
             </div>
-            <div id="hours" className="d-flex flex-column">
+            <div id="hours" className="d-flex flex-column overflow-auto">
                 <div>
                     <h5><b><u>Temporary Hours</u></b></h5>
                 </div>
                 <div>
-                    <p>Mon - Sun: 5:00 pm - 7:00 pm</p>
-                    <p>Pick Up or Delivery</p>
+                    <p>
+                        Mon - Sun: 5:00 pm - 7:00 pm
+                        <br/>
+                        Pick Up or Delivery
+                    </p>
                 </div>
                 <div>
                     <h5><b><u>Normal Hours</u></b></h5>
@@ -64,8 +67,11 @@ function Contact () {
                     <h6><b>Dinner:</b></h6>
                 </div>
                 <div>
-                    <p>Mon - Sat: 5:00 pm - 9:30 pm</p>
-                    <p>Sun: 5:00 pm - 9:00 pm</p>
+                    <p>
+                        Mon - Sat: 5:00 pm - 9:30 pm
+                        <br/>
+                        Sun: 5:00 pm - 9:00 pm
+                    </p>
                 </div>
             </div>
         </section>
